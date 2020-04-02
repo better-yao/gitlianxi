@@ -1,0 +1,9 @@
+git config --global user.name "lifeyx" ：配置全局的个人账号。
+
+git config --global user.email 123456@qq.com ：配置全局的个人邮箱地址。
+
+git init ：对当前目录进行git管理,该目录便会成为工作区,并在当前目录下会出现个.git隐藏目录.该.git里会保存git所需要的数据和资源,也就是git仓库和暂存区都会保存在.git里。
+
+rm -rf .git ：移除.git文件夹，解除init的初始换仓库的操作。
+
+git clone https://github.com/better-yao/gitlianxi.git :克隆复制远程仓库到当前目录,生成test2文件夹,里面会自动创建.git目录,并保存远程仓库信息。
